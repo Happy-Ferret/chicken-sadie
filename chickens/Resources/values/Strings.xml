@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">chicken sadie</string>
+	
+	<string name="nextAlarmPending">Calculating next alarm...</string>
+	<string name="nextTwilightPending">No times information yet.</string>
+	<string name="nextAlarmRecommendationPending">Update times to calculate recommendation.</string>
+
+	<string name="refreshTimesButton">Refresh times</string>
+	<string name="testAlarmButton">Test alarm</string>
+	<string name="setAlarmButton">Set alarm</string>
+	
+</resources>

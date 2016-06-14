@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/surprisedchicken_sm"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:id="@+id/nextTwilightText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/nextTwilightPending"
+            android:padding="5dp"
+            android:background="#88000000" />
+        <TextView
+            android:id="@+id/nextAlarmRecommendationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/nextAlarmRecommendationPending"
+            android:padding="5dp"
+            android:background="#88000000" />
+        <TextView
+            android:id="@+id/nextAlarmText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/nextAlarmPending"
+            android:padding="5dp"
+            android:background="#88000000" />
+        <Button
+            android:id="@+id/testButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/testAlarmButton"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/updateTimesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/refreshTimesButton"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/setRecommendedAlarmButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/setAlarmButton"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>
